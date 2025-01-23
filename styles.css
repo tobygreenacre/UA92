@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+}
+nav a{
+    padding: 10px;
+    color: rgb(250, 88, 88);
+}
+nav a:hover{
+    color: rgb(233, 18, 18);
+}
+.post{
+    background-color: lightgray;
+    padding: 20px;
+}
+.featured{
+    border: solid red;
+}
+.featured .post-meta{
+    font-weight: bold;
+}
+p.post-meta{
+    font-style: italic;
+    font-size: smaller;
+}
+footer{
+    text-align: center;
+    background-color: rgb(244, 120, 120);
+}
+.post-title:hover{
+    color: red;
+}
